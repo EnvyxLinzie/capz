@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About us - Open PRO',
-  description: 'Page description',
+  title: 'About us - Candra Apple Solution',
+  description: 'Service Apple Terbaik',
 }
 
 import HeroAbout from '@/components/hero-about'

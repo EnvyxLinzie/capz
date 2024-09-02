@@ -4,8 +4,12 @@ import { useRef, useState, useEffect } from 'react'
 
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import TabsImage01 from '@/public/images/tabs-image-01.jpg'
-import HeroImage01 from '@/public/images/hero-image-01.jpg'
+import Sparepart from '@/public/images/sparepart.png'
+import Hardware from '@/public/images/hardware.png'
+import Software from '@/public/images/software.png'
+import Maintenance from '@/public/images/maintenance.png'
+import Training from '@/public/images/training.png'
+
 
 export default function Tabs() {
 
@@ -102,7 +106,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
+                      <Image className="w-full h-full object-cover" src={Hardware} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Solusi kerusakan hardware apple</h4>
@@ -131,7 +135,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={HeroImage01} width={516} height={387} alt="Tabs 02" />
+                      <Image className="w-full h-full object-cover" src={Software} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                       <h4 className="h4 mb-2">Solusi kerusakan software apple</h4>
@@ -160,7 +164,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
+                      <Image className="w-full h-full object-cover" src={Sparepart} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Solusi kerusakan sparepart pada apple device</h4>
@@ -189,7 +193,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={HeroImage01} width={516} height={387} alt="Tabs 02" />
+                      <Image className="w-full h-full object-cover" src={Maintenance} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                       <h4 className="h4 mb-2">Solusi maintenance pada apple device</h4>
@@ -218,7 +222,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
+                      <Image className="w-full h-full object-cover" src={Training} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Kami menyediakan training private service iphone</h4>

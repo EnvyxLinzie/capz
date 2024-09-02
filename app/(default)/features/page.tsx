@@ -4,10 +4,8 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero-features'
-import Stats from '@/components/stats'
 import Zigzag from '@/components/zigzag'
 import Blocks from '@/components/blocks'
-import CaseStudies from '@/components/case-studies'
 import Cta from '@/components/cta'
 
 export default function Features() {
@@ -16,7 +14,6 @@ export default function Features() {
       <Hero />
       <Zigzag />
       <Blocks />
-      <CaseStudies />
       <Cta />
     </>
   )
